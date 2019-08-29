@@ -36,6 +36,7 @@ Replaces:
 Suggests:
  policykit-1,
  isc-dhcp-server-ldap,
+ ieee-data
 Description: ISC DHCP server for automatic IP address assignment
  This is the Internet Software Consortium's DHCP server.
  .
