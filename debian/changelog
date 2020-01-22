@@ -1,3 +1,11 @@
+isc-dhcp (4.4.1-2.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Fix FTBFS due to gcc-9 adding --as-needed by default; patch by Reiner
+    Herrmann (Closes: #925720)
+
+ -- Paul Gevers <elbrus@debian.org>  Wed, 22 Jan 2020 22:35:14 +0100
+
 isc-dhcp (4.4.1-2) unstable; urgency=medium
 
   * Set initial address to 0.0.0.0 on hurd (closes: #875566).
