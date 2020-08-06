@@ -16,3 +16,4 @@ system-bind.patch
 bind-includes.patch
 
 configure.patch
+Fixed_gcc_10_compilation_issues.patch
