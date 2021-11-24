@@ -2,7 +2,7 @@ Source: isc-dhcp
 Section: net
 Priority: important
 Maintainer: Debian ISC DHCP Maintainers <isc-dhcp@packages.debian.org>
-Uploaders: Andrew Pollock <apollock@debian.org>, Michael Gilbert <mgilbert@debian.org>
+Uploaders: Andrew Pollock <apollock@debian.org>, Michael Gilbert <mgilbert@debian.org>, Santiago Ruano Rincón <santiago@debian.org>
 Homepage: http://www.isc.org
 Build-Depends:
  dpkg-dev (>= 1.13.2),
