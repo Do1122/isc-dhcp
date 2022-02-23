@@ -1,3 +1,25 @@
+isc-dhcp (4.4.2-P1-1~1.gbpc4cc62) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @c4cc6266b9491ac6001950c0c19fdca303099aac **
+
+  [ Santiago Ruano Rincón ]
+  * Fix debian/watch to make it take into account upstream security releases (e.g. -P1)
+  * Update upstream signing key: replace revoked one by 2455774D42FDFE6B9C383EB8FE1002BC5970811F
+  * Add myself to Uploaders
+  * Import Upstream version 4.4.1
+  * Remove Files-Excluded from d/copyright
+  * New upstream version 4.4.2-P1
+  * Refresh debian/patches/configure.patch
+  * Refresh debian/patches/disable-nsupdate.patch
+  * Refresh debian/patches/system-bind.patch
+  * Remove no longer needed debian/patches/4.4.2.CVE-2021-25217.patch
+  * Delete no longer needed patches: CVE-2017-3144.patch CVE-2018-5732.patch CVE-2018-5733.patch
+
+  [ Bernhard Schmidt ]
+  * Add Salsa CI (again)
+
+ -- Santiago Ruano Rincón <santiago.ruano-rincon@imt-atlantique.fr>  Wed, 23 Feb 2022 11:18:49 +0100
+
 isc-dhcp (4.4.1-2.3) unstable; urgency=high
 
   * Non-maintainer upload.
