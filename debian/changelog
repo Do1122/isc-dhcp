@@ -7,7 +7,7 @@ isc-dhcp (4.4.2-P1-1) unstable; urgency=low
     2455774D42FDFE6B9C383EB8FE1002BC5970811F
   * Add myself to Uploaders (Closes: #1000662)
   * Remove Files-Excluded from d/copyright
-  * New upstream version 4.4.2-P1
+  * New upstream version 4.4.2-P1 (Closes: #975729)
   * Refresh configure.patch, disable-nsupdate.patch, system-bind.patch
   * Remove no longer needed patches: 4.4.2.CVE-2021-25217.patch
     CVE-2017-3144.patch CVE-2018-5732.patch CVE-2018-5733.patch
