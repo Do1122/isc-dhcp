@@ -1,5 +1,5 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0
-Source: http://www.isc.org/downloads/dhcp
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0
+Source: https://www.isc.org/downloads/dhcp
 
 Files: *
 Copyright:
