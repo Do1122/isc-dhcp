@@ -3,7 +3,7 @@
    Routines for reading the configuration from LDAP */
 
 /*
- * Copyright (c) 2010-2019 by Internet Systems Consortium, Inc. ("ISC")
+ * Copyright (c) 2010-2022 by Internet Systems Consortium, Inc. ("ISC")
  * Copyright (c) 2003-2006 Ntelos, Inc.
  * All rights reserved.
  *
@@ -1375,13 +1375,13 @@ ldap_start (void)
                                                              SV_LDAP_GSSAPI_PRINCIPAL);
 
       if (ldap_gssapi_principal == NULL) {
-          log_error("ldap_gssapi_principal is not set,"
+          log_info("ldap-gssapi-principal is not set,"
                    "GSSAPI Authentication for LDAP will not be used");
       } else {        
         ldap_gssapi_keytab = _do_lookup_dhcp_string_option (options,
                                                           SV_LDAP_GSSAPI_KEYTAB);
         if (ldap_gssapi_keytab == NULL) {
-          log_fatal("ldap_gssapi_keytab must be specified");
+          log_fatal("ldap-gssapi-keytab must be specified");
         } 
 
       	running = strdup(ldap_gssapi_principal);

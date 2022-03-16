@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2018-2021 Internet Systems Consortium, Inc. ("ISC")
+ * Copyright (C) 2018-2022 Internet Systems Consortium, Inc. ("ISC")
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -134,7 +134,7 @@ ATF_TC(parse_X);
 ATF_TC_HEAD(parse_X, tc)
 {
     atf_tc_set_md_var(tc, "descr",
-		      "Verify parse_X survices option too big.");
+		      "Verify parse_X services option too big.");
 }
 
 /* Initializes a parse struct from an input buffer of data. */
