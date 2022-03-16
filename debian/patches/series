@@ -1,4 +1,4 @@
-dhclient-script-exit-status.patch
+#dhclient-script-exit-status.patch
 dhclient-dividebyzero.patch
 dhclient-release.patch
 
