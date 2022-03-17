@@ -12,7 +12,7 @@ fix-spelling.patch
 
 disable-nsupdate.patch
 
-system-bind.patch
+#system-bind.patch
 bind-includes.patch
 
 configure.patch
