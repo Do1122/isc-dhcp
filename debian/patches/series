@@ -16,5 +16,4 @@ disable-nsupdate.patch
 bind-includes.patch
 
 configure.patch
-Fixed_gcc_10_compilation_issues.patch
 
