@@ -1,18 +1,22 @@
-isc-dhcp (4.4.3-1~2.gbp246c03) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @246c0334ae2b9298dae9551389149ce25bc78bf8 **
+isc-dhcp (4.4.3-1) unstable; urgency=low
 
   * New upstream version 4.4.3
   * Refresh fix-manpage-macro.patch
   * Refresh fix-spelling.patch
-  * Disable dhclient-script-exit-status.patch. Upstream has fixed the related bug (#123)
+  * Disable dhclient-script-exit-status.patch. Upstream has fixed the related
+    bug (#123)
   * Use bundled BIND libraries instead of libbind-export-dev (Closes: #942502)
   * Bump debhelper-compat to 13
   * Remove Fixed_gcc_10_compilation_issues.patch
   * Fix some install paths to make dh_missing happy
   * Add EOM NEWS for client and relay
+  * Fix handling of stale pid file for init.d/dhcpd start. Thanks to H.-Dirk
+    Schmitt <dirk@computer42.org> (Closes: #1009209)
+  * Bump Standards-Version to 4.6.0.1. No changes required
+  * Bump d/watch version to 4.
+  * Update d/copyright
 
- -- Santiago Ruano Rincón <santiago@debian.org>  Mon, 28 Mar 2022 22:33:47 +0200
+ -- Santiago Ruano Rincón <santiago@debian.org>  Fri, 06 May 2022 17:24:11 +0200
 
 isc-dhcp (4.4.2-P1-1) unstable; urgency=low
 
