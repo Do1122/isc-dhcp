@@ -1,10 +1,9 @@
-isc-dhcp (4.4.3-2~1.gbpbbecbb) UNRELEASED; urgency=medium
+isc-dhcp (4.4.3-2) unstable; urgency=medium
 
-  ** SNAPSHOT build @bbecbbec294fda2ef2fc510ea46996aaa968d91c **
+  * Explicitly link against -latomic to fix FTBFS on mipsel, m68k, powerpc and
+    sh4
 
-  * Explicitly link against -latomic to fix FTBFS on mipsel, m68k, powerpc and sh4
-
- -- Santiago Ruano Rincón <santiago@debian.org>  Wed, 25 May 2022 17:06:58 +0200
+ -- Santiago Ruano Rincón <santiago@debian.org>  Thu, 26 May 2022 21:31:55 +0200
 
 isc-dhcp (4.4.3-1) unstable; urgency=low
 
