@@ -2,6 +2,7 @@ isc-dhcp (4.4.3-3) UNRELEASED; urgency=medium
 
   * An option refcount overflow exists in dhcpd (CVE-2022-2928)
     (Closes: #1021320)
+  * DHCP memory leak (CVE-2022-2929) (Closes: #1021320)
 
  -- Salvatore Bonaccorso <carnil@debian.org>  Thu, 06 Oct 2022 22:17:06 +0200
 

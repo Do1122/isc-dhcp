@@ -18,3 +18,4 @@ disable-nsupdate.patch
 configure.patch
 
 CVE-2022-2928.patch
+CVE-2022-2929.patch
