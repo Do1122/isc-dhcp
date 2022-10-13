@@ -1,3 +1,11 @@
+isc-dhcp (4.4.3-P1-1~1.gbpbe2d55) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @be2d55b5b197c44c98461b8fe92a34ba171ab2da **
+
+  * New upstream version 4.4.3-P1
+
+ -- Santiago Ruano Rincón <santiago@debian.org>  Thu, 13 Oct 2022 10:17:31 +0200
+
 isc-dhcp (4.4.3-2.1) unstable; urgency=medium
 
   * Non-maintainer upload.
