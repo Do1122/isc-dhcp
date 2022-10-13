@@ -1,11 +1,9 @@
-isc-dhcp (4.4.3-P1-1~2.gbp65bce6) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @65bce66306bd0a598e25b6b084256e49a92be018 **
+isc-dhcp (4.4.3-P1-1) unstable; urgency=low
 
   * New upstream version 4.4.3-P1
   * Remove no longer needed CVE-2022-2928.patch and CVE-2022-2929.patch
 
- -- Santiago Ruano Rincón <santiago@debian.org>  Thu, 13 Oct 2022 10:46:38 +0200
+ -- Santiago Ruano Rincón <santiago@debian.org>  Thu, 13 Oct 2022 14:12:54 +0200
 
 isc-dhcp (4.4.3-2.1) unstable; urgency=medium
 
