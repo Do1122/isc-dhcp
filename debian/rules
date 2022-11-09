@@ -39,6 +39,18 @@ endif
 %:
 	dh $@ --parallel --with autoreconf
 
+# Ensure that the bind config.guess/config.sub are unpacked first,
+# otherwise they won't be updated and isc-dhcp will FTBFS on new arches
+# Thanks to Paul Wise
+# https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1010807#30
+# Closes: #1010807
+execute_before_dh_update_autotools_config:
+	cd bind && tar xf bind.tar.gz
+
+# Ensure that the bind build system gets rebuilt too
+override_dh_autoreconf:
+	dh_autoreconf debian/autogen.sh
+
 override_dh_auto_configure:
 
 override_dh_auto_build:
