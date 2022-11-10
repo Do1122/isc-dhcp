@@ -119,6 +119,14 @@ Description: DHCP client for automatically obtaining an IP address
  another DHCP client installed.
  .
  Extra documentation can be found in the package isc-dhcp-common.
+ .
+ ISC has decided to stop maintaining the client and relay parts of isc-dhcp,
+ and they will be removed after the 4.4.3 release, keeping only the server
+ component. Please, consider using an alternative for isc-dhcp-client
+ (dhclient).
+ .
+ More information can be found in the ISC official announcement:
+ https://www.isc.org/blogs/dhcp-client-relay-eom/
 
 Package: isc-dhcp-client-ddns
 Priority: optional
@@ -169,3 +177,11 @@ Description: ISC DHCP relay daemon
  requires a reachable DHCP or BOOTP server in order to function.
  .
  Extra documentation can be found in the package isc-dhcp-common.
+ .
+ ISC has decided to stop maintaining the client and relay parts of isc-dhcp,
+ and they will be removed after the 4.4.3 release, keeping only the server
+ component. Please, consider using an alternative for isc-dhcp-relay
+ (dhcrelay).
+ .
+ More information can be found in the ISC official announcement:
+ https://www.isc.org/blogs/dhcp-client-relay-eom/
