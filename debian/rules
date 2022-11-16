@@ -25,9 +25,11 @@ CFLAGS+=-D_PATH_DHCLIENT6_DB='\"$(LEASE_PATH)/dhclient6.leases\"'
 
 CONFFLAGS+=--prefix=/usr --enable-log-pid --enable-paranoia
 
+include /usr/share/dpkg/buildtools.mk
 # cross-architecture building
 ifneq ($(DEB_HOST_GNU_TYPE),$(DEB_BUILD_GNU_TYPE))
 CONFFLAGS+=--build=$(DEB_BUILD_GNU_TYPE) --host=$(DEB_HOST_GNU_TYPE) --with-randomdev=/dev/random
+export BUILD_CC=$(CC_FOR_BUILD)
 endif
 
 # hurd support
